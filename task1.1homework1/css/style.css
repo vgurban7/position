@@ -1,0 +1,110 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Tahoma;
+}
+
+.container {
+   position: relative;
+   max-width: 1300px;
+   margin: auto;
+}
+
+header,
+footer {
+   background-color: aquamarine;
+   padding: 50px 0px;
+}
+
+main {
+   padding: 170px 0px 50px 0px;
+}
+
+header {
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   z-index: 100;
+}
+
+li {
+   display: inline-block;
+}
+
+p {
+   font-size: 22px;
+}
+
+.service {
+   background-color: rgba(137, 43, 226, 0.459);
+   padding: 20px;
+   position: relative;
+   top: 40px;
+   left: 50px;
+
+}
+
+.service a {
+   color: black;
+}
+
+.service p {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.team {
+
+   background-color: rgba(255, 255, 0, 0.795);
+   padding: 20px;
+}
+
+.pic {
+   position: absolute;
+   /* top: 30px;
+   left: 50px; */
+   right: 0;
+   top: 0;
+}
+
+.callme {
+   background-color: black;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 100;
+}
+
+.popap {
+   width: 400px;
+   padding: 20px;
+   background-color: yellow;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* margin-top: -100px;
+   margin-left: -200px; */
+   transform: translate(-50%, -50%);
+   box-shadow: 5px 5px 10px black;
+
+}
+
+.close {
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: -15px;
+   right: -15px;
+   padding: 5px;
+   background-color: white;
+   color: black;
+   /* transform: translate(50%, -50%); */
+}
